@@ -42,6 +42,21 @@
 git clone [https://github.com/你的用户名/Digital-Sound-Effects-System.git](https://github.com/你的用户名/Digital-Sound-Effects-System.git)
 cd Digital-Sound-Effects-System
 
+2. 创建并激活虚拟环境 (关键步骤！)
+如果你使用 PyCharm (推荐):
+PyCharm 打开项目时通常会提示 "No Python interpreter configured"。
+点击提示条上的 "Configure Python Interpreter" -> 选择 "New Virtualenv Environment" -> 点击 OK。
+
+等待右下角进度条加载完毕，PyCharm 会自动为你隔离环境。
+
+如果你习惯使用命令行 (Terminal): 请在项目根目录下执行以下命令：
+
+Windows 用户:
+# 创建虚拟环境
+python -m venv venv
+# 激活虚拟环境
+venv\Scripts\activate
+
 2. 安装依赖库
-请确保你的电脑安装了 Python (建议 3.8 或以上版本)。在 PyCharm 的终端 (Terminal) 运行：
+确保虚拟环境已激活（或已在 PyCharm 的 Terminal 中），运行：
 pip install -r requirements.txt
