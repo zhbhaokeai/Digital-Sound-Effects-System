@@ -1,0 +1,15 @@
+# 忽略编译缓存
+__pycache__/
+*.pyc
+
+# 忽略 PyCharm/VSCode 配置文件夹
+.idea/
+.vscode/
+
+# 忽略临时录音文件和模型文件夹 (模型应该由每个人自己训练或生成)
+temp_recordings/
+gmm_models/
+
+# 忽略虚拟环境 (如果有)
+venv/
+env/
